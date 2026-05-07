@@ -14,9 +14,9 @@ export const projects: Project[] = [
         title: "Jokes Viewer",
         description:
             "A simple app that fetches random jokes and lets users browse and copy them easily.",
-        image: "./public/jokes.png",
+        image: "./jokes.png",
         liveUrl: "https://random-joke-nova.netlify.app/",
-        githubUrl: "https://github.com/yourusername/jokes-viewer",
+        githubUrl: "https://github.com/Sulochan36/RandomJoke-FreeApi",
         tags: ["React", "API", "UI"],
     },
     {
@@ -24,9 +24,9 @@ export const projects: Project[] = [
         title: "Quotes Explorer",
         description:
             "Browse and search quotes with pagination and clean reading layout.",
-        image: "./public/quotes.png",
+        image: "./quotes.png",
         liveUrl: "https://quote-side.netlify.app/",
-        githubUrl: "https://github.com/yourusername/quotes-explorer",
+        githubUrl: "https://github.com/Sulochan36/QuoteListing-FreeApi",
         tags: ["React", "Search", "Pagination"],
     },
     {
@@ -34,9 +34,9 @@ export const projects: Project[] = [
         title: "Product Listing",
         description:
             "E-commerce style product grid with pagination, dynamic data and fallback handling.",
-        image: "./public/products.png",
+        image: "./products.png",
         liveUrl: "https://productlistingview.netlify.app/",
-        githubUrl: "https://github.com/yourusername/product-listing",
+        githubUrl: "https://github.com/Sulochan36/ProductsListing--FreeApi",
         tags: ["React", "Grid", "API"],
     },
     {
@@ -44,9 +44,9 @@ export const projects: Project[] = [
         title: "Video Explorer",
         description:
             "YouTube-style video listing interface with search and pagination.",
-        image: "./public/utube.png",
+        image: "./utube.png",
         liveUrl: "https://youtubelistingfreeapi.netlify.app/",
-        githubUrl: "https://github.com/yourusername/video-explorer",
+        githubUrl: "https://github.com/Sulochan36/YoutubeVideosLisitng-FreeApi",
         tags: ["React", "Media", "Search"],
     },
     {
@@ -54,9 +54,9 @@ export const projects: Project[] = [
         title: "Auth System",
         description:
             "Complete authentication flow with register, login, logout and protected user state.",
-        image: "./public/auth.png",
+        image: "./auth.png",
         liveUrl: "https://authenticationfreeapi.netlify.app/",
-        githubUrl: "https://github.com/yourusername/auth-system",
+        githubUrl: "https://github.com/Sulochan36/Authentication-FreeApi",
         tags: ["Auth", "JWT", "React"],
     },
     {
@@ -64,9 +64,9 @@ export const projects: Project[] = [
         title: "Random User Generator",
         description:
             "Generate random user profiles with realistic data for testing and development.",
-        image: "./public/users.png",
+        image: "./users.png",
         liveUrl: "https://randomuserinf.netlify.app/",
-        githubUrl: "https://github.com/yourusername/random-user-generator",
+        githubUrl: "https://github.com/Sulochan36/Randomuser-FreeAPI",
         tags: ["React", "API", "UI"],
     },
     {
@@ -74,9 +74,9 @@ export const projects: Project[] = [
         title: "Meals Listing",
         description:
             "Browse and search for delicious meals with detailed information and ratings.",
-        image: "./public/meals.png",
+        image: "./meals.png",
         liveUrl: "https://recipie-list.netlify.app/",
-        githubUrl: "https://github.com/yourusername/meals-listing",
+        githubUrl: "https://github.com/Sulochan36/MealsListing-FreeAPI",
         tags: ["React", "Search", "API"],
     },
     {
@@ -84,9 +84,9 @@ export const projects: Project[] = [
         title: "Random Cat Explorer",
         description:
             "Explore and discover adorable cat images with detailed information.",
-        image: "./public/random-cat.png",
+        image: "./random-cat.png",
         liveUrl: "https://random-meow.netlify.app/",
-        githubUrl: "https://github.com/yourusername/random-cat-explorer",
+        githubUrl: "https://github.com/Sulochan36/Random-Cat-Viewer-FreeApi",
         tags: ["React", "Images", "API"],
     },
 ];
