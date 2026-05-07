@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='w-full position-fixed bottom-0 pt-5'>
             <div className='border-t-2 border-neutral-200 flex flex-col justify-center items-center py-4'>
                 <p className='text-md text-gray-600 font-semibold text-center '>
-                    Designed & developed by <a href="https://sulochanmahajan.com/" target="_blank" className='text-blue-500 underline'>Sulochan Mahajan</a>
+                    Designed & developed by <a href="https://sulochanmahajan.com/" target="_blank" className='text-blue-500 hover:underline hover:text-blue-700 transition-all duration-300'>Sulochan Mahajan</a>
                 </p>
 
 
