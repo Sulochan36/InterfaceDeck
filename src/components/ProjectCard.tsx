@@ -6,19 +6,19 @@ interface Props {
 
 const ProjectCard = ({ project }: Props) => {
     return (
-        <div className="border rounded-lg overflow-hidden shadow-sm">
+        <div className="border border-neutral-200 bg-white/80 backdrop-blur shadow-sm hover:shadow-xl transition-all duration-200 overflow-hidden ">
             {/* Image */}
             <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover hover:scale-105 transition-transform duration-500"
             />
 
             {/* Content */}
             <div className="p-4 flex flex-col gap-2">
-                <h3 className="text-lg font-semibold">{project.title}</h3>
+                <h3 className="text-xl font-semibold tracking-tight">{project.title}</h3>
 
-                <p className="text-sm text-gray-600 line-clamp-3">
+                <p className="text-sm leading-relaxed text-neutral-500 line-clamp-3">
                     {project.description}
                 </p>
 
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }: Props) => {
                     {project.tags.map((tag) => (
                         <span
                             key={tag}
-                            className="text-xs bg-gray-200 px-2 py-1 rounded"
+                            className="text-xs bg-gray-200 px-2 py-1 rounded border border-neutral-200"
                         >
                             {tag}
                         </span>
@@ -39,7 +39,7 @@ const ProjectCard = ({ project }: Props) => {
                     <a
                         href={project.liveUrl}
                         target="_blank"
-                        className="text-sm px-3 py-1 bg-black text-white rounded"
+                        className="text-sm px-3 py-1 bg-black text-white rounded hover:bg-neutral-700 transition duration-200"
                     >
                         Live
                     </a>
@@ -47,7 +47,7 @@ const ProjectCard = ({ project }: Props) => {
                     <a
                         href={project.githubUrl}
                         target="_blank"
-                        className="text-sm px-3 py-1 border rounded"
+                        className="text-sm px-3 py-1 border rounded hover:bg-neutral-200 transition duration-200"
                     >
                         GitHub
                     </a>

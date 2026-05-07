@@ -14,8 +14,8 @@ export const projects: Project[] = [
         title: "Jokes Viewer",
         description:
             "A simple app that fetches random jokes and lets users browse and copy them easily.",
-        image: "https://source.unsplash.com/800x450/?funny,comedy",
-        liveUrl: "https://your-jokes-app.netlify.app",
+        image: "./public/jokes.png",
+        liveUrl: "https://random-joke-nova.netlify.app/",
         githubUrl: "https://github.com/yourusername/jokes-viewer",
         tags: ["React", "API", "UI"],
     },
@@ -24,8 +24,8 @@ export const projects: Project[] = [
         title: "Quotes Explorer",
         description:
             "Browse and search quotes with pagination and clean reading layout.",
-        image: "https://source.unsplash.com/800x450/?quotes,books",
-        liveUrl: "https://your-quotes-app.netlify.app",
+        image: "./public/quotes.png",
+        liveUrl: "https://quote-side.netlify.app/",
         githubUrl: "https://github.com/yourusername/quotes-explorer",
         tags: ["React", "Search", "Pagination"],
     },
@@ -34,8 +34,8 @@ export const projects: Project[] = [
         title: "Product Listing",
         description:
             "E-commerce style product grid with pagination, dynamic data and fallback handling.",
-        image: "https://source.unsplash.com/800x450/?shopping,ecommerce",
-        liveUrl: "https://productlistingview.netlify.app",
+        image: "./public/products.png",
+        liveUrl: "https://productlistingview.netlify.app/",
         githubUrl: "https://github.com/yourusername/product-listing",
         tags: ["React", "Grid", "API"],
     },
@@ -44,8 +44,8 @@ export const projects: Project[] = [
         title: "Video Explorer",
         description:
             "YouTube-style video listing interface with search and pagination.",
-        image: "https://source.unsplash.com/800x450/?youtube,video",
-        liveUrl: "https://your-video-app.netlify.app",
+        image: "./public/utube.png",
+        liveUrl: "https://youtubelistingfreeapi.netlify.app/",
         githubUrl: "https://github.com/yourusername/video-explorer",
         tags: ["React", "Media", "Search"],
     },
@@ -54,9 +54,39 @@ export const projects: Project[] = [
         title: "Auth System",
         description:
             "Complete authentication flow with register, login, logout and protected user state.",
-        image: "https://source.unsplash.com/800x450/?security,login",
-        liveUrl: "https://your-auth-app.netlify.app",
+        image: "./public/auth.png",
+        liveUrl: "https://authenticationfreeapi.netlify.app/",
         githubUrl: "https://github.com/yourusername/auth-system",
         tags: ["Auth", "JWT", "React"],
+    },
+    {
+        id: 6,
+        title: "Random User Generator",
+        description:
+            "Generate random user profiles with realistic data for testing and development.",
+        image: "./public/users.png",
+        liveUrl: "https://randomuserinf.netlify.app/",
+        githubUrl: "https://github.com/yourusername/random-user-generator",
+        tags: ["React", "API", "UI"],
+    },
+    {
+        id: 7,
+        title: "Meals Listing",
+        description:
+            "Browse and search for delicious meals with detailed information and ratings.",
+        image: "./public/meals.png",
+        liveUrl: "https://recipie-list.netlify.app/",
+        githubUrl: "https://github.com/yourusername/meals-listing",
+        tags: ["React", "Search", "API"],
+    },
+    {
+        id: 8,
+        title: "Random Cat Explorer",
+        description:
+            "Explore and discover adorable cat images with detailed information.",
+        image: "./public/random-cat.png",
+        liveUrl: "https://random-meow.netlify.app/",
+        githubUrl: "https://github.com/yourusername/random-cat-explorer",
+        tags: ["React", "Images", "API"],
     },
 ];
